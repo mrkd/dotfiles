@@ -5,8 +5,6 @@ source ~/working/dotfiles/.xcode_bash.sh
 
 ###
 
-
-
 # https://github.com/olivierverdier/zsh-git-prompt
 # To install source this file from your .zshrc file
 
