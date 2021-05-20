@@ -10,15 +10,17 @@ brew upgrade
 brew install speedtest_cli
 brew install tree
 
+brew install ffmpeg
+
 function installcask() {
 	echo "Installing ${@}"
-	brew cask install "${@}" 2> /dev/null
+	brew install cask "${@}" 2> /dev/null
 }
 
+installcask 1password
 installcask visual-studio-code
 installcask sublime-text
-installcask authy
-installcask intel-power-gadget         
+installcask authy       
 installcask slack
 installcask bartender                  
 installcask istat-menus                
@@ -40,7 +42,6 @@ installcask handbrake
 installcask simpholders                
 installcask zoom
 
-installcask 1password
 installcask encryptme
 installcask soulver
 

@@ -89,7 +89,6 @@ plugins=(git
          )
 
 source $ZSH/oh-my-zsh.sh
-source ~/working/dotfiles/zshrc.sh
 
 PROMPT='%{$fg[yellow]%}[%D{%Y.%m.%f} %D{%L:%M:%S%p%z}] '$PROMPT
 

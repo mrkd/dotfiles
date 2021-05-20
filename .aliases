@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# ag search
+alias ag='ag --hidden'
+
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
